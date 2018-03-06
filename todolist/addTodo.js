@@ -1,6 +1,6 @@
 var addTodo= function(){
 	this.addText = function(nameText){
-		element(by.model('todoList.todoText')).sendKeys(nameText);//dsfad
+		element(by.model('todoList.todoText')).sendKeys(nameText);//dsfadsdfsdaf
 		
 	};
 
