@@ -15,7 +15,7 @@ describe('to test the angularJs to-do-list site', function(){
 		browser.sleep(4000);
 		//element(by.model('todoList.todoText')).sendKeys(nameText);
 		element(by.css('[value="add"]')).click();
-		browser.sleep(4000);
+		browser.sleep(6000);
 
 		var todoList = element.all(by.repeater('todo in todoList.todos'));
 	    expect(todoList.count()).toEqual(3);
